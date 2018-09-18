@@ -2,6 +2,7 @@ import os
 from string import printable
 from math import sqrt
 
+
 def magnitude(vector):
     '''Computes magnitude of vector
 
@@ -37,14 +38,13 @@ def extract_features_ascii_unigram(input_string):
 
 def normalize(vector):
     '''normalizes a vector
-    
+
     Args:
         vector (iterable): the vector to be normalized
-    
+
     Returns:
         list: normalized vector
     '''
-
 
     mag = magnitude(vector)
     return [x / mag for x in vector]
@@ -55,4 +55,4 @@ def create_folder(directory):
         if not os.path.exists(directory):
             os.makedirs(directory)
     except OSError:
-        print ('Error: Creating directory. ' +  directory)
+        print('Error: Creating directory. ' + directory)

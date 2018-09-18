@@ -18,4 +18,3 @@ for file in files:
             w.write(str(features))
         with open(OUT_FOLDER + "-normalized/ncu-" + file, "w") as w:
             w.write(str(normalized_features))
-
