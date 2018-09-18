@@ -4,9 +4,9 @@ from helpers import extract_features_ascii_unigram, create_folder, normalize
 INPUT_FOLDER = "sports_writers"
 OUT_FOLDER = "sports_writers_features"
 
+files = listdir(INPUT_FOLDER)
 create_folder(OUT_FOLDER + "-raw")
 create_folder(OUT_FOLDER + "-normalized")
-files = listdir(INPUT_FOLDER)
 
 for file in files:
     with open(INPUT_FOLDER + "/" + file, "r", encoding='utf-8', errors='ignore') as f:

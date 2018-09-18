@@ -56,3 +56,9 @@ def create_folder(directory):
             os.makedirs(directory)
     except OSError:
         print('Error: Creating directory. ' + directory)
+
+
+def parse_author_s_writers(filename):
+    first_occurence = filename.index("_")
+    second_underscore_index = filename.index("_", first_occurence + 1)
+    return filename[:second_underscore_index]
