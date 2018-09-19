@@ -20,7 +20,7 @@ for file in files:
             stats_dict[author].append([chars, words, sentences])
 
 for author in stats_dict:
-    print(author)
+    print("Author: " + author)
     print("\tAverage # characters: " +
           str(sum([x[0] for x in stats_dict[author]]) / len(stats_dict[author])))
     print("\tAverage # words: " +

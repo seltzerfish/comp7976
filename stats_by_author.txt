@@ -1,0 +1,30 @@
+Author: HogSports_Hall
+	Average # characters: 3486.6666666666665
+	Average # words: 694.6666666666666
+	Average # sentences: 31.333333333333332
+
+Author: ArkFight_Harris
+	Average # characters: 2096.3333333333335
+	Average # words: 432.3333333333333
+	Average # sentences: 27.666666666666668
+
+Author: ArkDemocrat_Graham
+	Average # characters: 3258.0
+	Average # words: 607.0
+	Average # sentences: 36.0
+
+Author: PigTrail_Kirk
+	Average # characters: 5290.333333333333
+	Average # words: 1081.6666666666667
+	Average # sentences: 70.66666666666667
+
+Author: ArkFight_Ford
+	Average # characters: 7517.333333333333
+	Average # words: 1531.3333333333333
+	Average # sentences: 76.33333333333333
+
+Author: 247sports_Davis
+	Average # characters: 5954.0
+	Average # words: 1231.0
+	Average # sentences: 45.0
+

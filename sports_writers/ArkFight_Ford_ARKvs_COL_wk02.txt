@@ -1,0 +1,49 @@
+LEFT LANE.
+
+HAMMER DOWN.
+
+PUNT ON 4TH & 1.
+
+In just 21 minutes of game time, a honeymoon ended and an offseason of slogans and identity-building went by the wayside. Arkansas’ 34-27 loss to a really bad Colorado State drains much of the momentum Chad Morris was working on, especially since some horrendous coaching decisions drove this loss. It’s one thing to lose. It’s another to lose like that.
+
+The game recap is almost comical: Bret Bielema’s Chad Morris’s Hogs blew a 24-7 24-7 24-0 27-9 third-quarter lead to lose a tough game. Momentum shifted after John Henson Cole Hedlund Connor Limpert missed a field goal that likely would have iced it. Chris Ash’s Robb Smith’s John Chavis’s defense looked solid for the better part of three quarters before completely collapsing, while Arkansas’ offense went to sleep. Playcalling and decision-making were questionable.
+
+This game is most eerily similar to the 2013 Rutgers game: a road game against a bad team that featured an inept passing game and a blown three-possession lead. And the first loss for the new coach. The Rutgers game became a template for how Bielema-coached teams would lose. Fans put up with that for five years. I doubt Morris gets that long if this is how Arkansas is going to lose.
+
+Still, Morris will get time. This roster needs both general fixes (offensive line, secondary) and style-specific fixes (quarterback). The Hog quarterbacks clearly have not mastered a complicated scheme that requires a really smart QB, which is one of the reasons that Arkansas’ offense looks like it is only using a small section of the playbook. And the defense is just bad, although it did manage to buy enough time to give the offense a chance to deliver the knockout blow. So we’ll see progress in time.
+
+(It’s also worth noting that first-year coaches Morris, Jimbo Fisher, Kevin Sumlin, Scott Frost, Dan Mullen, Willie Taggart, Jeremy Pruitt, and Chip Kelly are a combined 0-10 against FBS teams this year. Rebuilds and transitions take time. Herm Edwards, meanwhile, is 2-0 because nothing makes sense.)
+
+Meanwhile, let’s take a look back at where this one all went wrong.
+
+ 
+The Hogs actually did three points better than Colorado State on offense, but kicking was once again the Hogs’ undoing. Limpert had a decent game, and 48 yards is outside of his range, but Colorado State’s Wyatt Bryan was incredible, with his efforts adding 6.7 EV to his team’s score (there’s your game right there).
+
+Field position was also decisive. Colorado State had better Field Position EV not because their average starting field position was better (it wasn’t) but because they had one more possession than Arkansas. The Rams had 14 full possessions to the Hogs’ 13. The Hogs kneed out the final possession of the first half, and the final six seconds of the game doesn’t count as a full possession. In this case, deferring the coin toss to the second half was immensely valuable, even though the Rams couldn’t have known it would time out that way.
+
+ 
+Devwah Whaley has emerged as Arkansas’ EV leader for the season, and he added 7 points with his career rushing night. He’s probably looking at 20+ carries for every game from here on out.
+
+Deon Stewart’s 2.4 points were from his punt return. He did not have a reception.
+
+The Hogs’ quarterback play was awful, and it’s about to get worse as we dig deeper into the numbers. It’s interesting to note that Kelley still finished with negative EV despite leading two touchdown drives. Both quarterbacks were hampered by poor playcalling, but Kelley showed poor mobility in the pocket, while Storey looked indecisive. They’ll likely improve as the season goes on, but this feels like Morris needs to pick one after the North Texas game and roll with him from there. These guys need to get comfortable with their receivers.
+
+ 
+Arkansas had better field position and a better leverage rate, but the offense really struggled on third down. Chavis’s defense held its own on third down for the second straight week, and it was really encouraging to see the defensive line dominating a weaker Rams’ front. Still, the Hogs’ secondary was shredded to pieces, and K.J. Carta-Samuels completed 14 of his final 16 passes, mostly to wide-open targets.
+
+ 
+Several observations about these game splits:
+
+You can see the collapse in real time. Note the quarter-by-quarter results. Arkansas gained just six yards on seven plays in the 4th quarter, while Colorado State grew stronger with each passing quarter. It’s very disappointing to see Coach Morris not diagnose this and factor it into his decision to punt the ball on the first play of the fourth quarter. Arkansas’ defense was already running out of juice by that point.
+Arkansas’ passing was historically bad. A 10% success rate. Against the worst passing team in the country. Any team that can stop the run without stacking the box (that is, every single team in the SEC West) is capable of shutting down this offense if the Hogs can fix the passing game.
+Arkansas’ rushing was historically good. Concerns about the run game after the opener proved unfounded, and the Hogs rolled up a ridiculous 72% success rate on the ground. By my count, that’s the best rushing success rate in a game since the 2014 Texas Tech game. Yep, that game. Arkansas ran the ball 50 times. Had they run it 60 times, they would have won. Pretty simple. Have I mentioned playcalling was a nightmare?
+ 
+First, the good news. Whaley’s 88.5% rushing success rate is the best I’ve ever seen in four years of calculating success rate statistics. His 46.2% opportunity rate is also really good (that means 46.2% of his runs gained at least six yards; 40+% is considered good). Rakeem Boyd had the big run and looked good overall. Chase Hayden also looked decent. The Hogs are set at running back.
+
+ 
+Ugggh. Note that both quarterbacks had pitiful success rates; Kelley’s numbers are better because his successes came in the form of two big plays (both touchdowns), while Storey’s successes were minor.
+
+ 
+I feel bad for the receivers, who are pretty talented but didn’t get involved. La’Michael Pettway caught a 25-yard touchdown pass from Kelley, but his other two targets didn’t go anywhere. The underuse of T.J. Hammonds (four touches, two of which were inside runs) is mystifying, especially since his 64-yard catch-and-run touchdown was Arkansas’ best offensive play of the season. The Hogs also attempted a lot of passes short and to the sideline, which didn’t work. Again.
+
+This loss basically shoots any chances at a bowl season. That doesn’t mean this season isn’t important. Bobby Petrino’s 2008 team and Bret Bielema’s 2013 team were both bad, but they included some key moments. Petrino’s first team gave fans hope by upsetting Tulsa and ending the season on a clear high note with a win over LSU. Bielema’s first team offered almost no hope, ending the season with nine straight losses. Morris’ first team will get plenty of chances to offer fans hope, even in a lost season. This wasn’t a good start.
