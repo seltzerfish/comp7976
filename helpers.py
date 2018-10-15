@@ -3,6 +3,7 @@ from string import printable
 from math import sqrt
 
 
+
 def magnitude(vector):
     '''Computes magnitude of vector
 
@@ -62,3 +63,54 @@ def parse_author_s_writers(filename):
     first_occurence = filename.index("_")
     second_underscore_index = filename.index("_", first_occurence + 1)
     return filename[:second_underscore_index]
+
+
+def load_data_as_normalized_dict(folder_name):
+    """reads in a folder of text, and scores it using character unigram
+    
+    Args:
+        folder_name (str): where the files live
+    
+    Returns:
+        dict: maps author names to a list of sample feature vectors
+    """
+
+    data = dict()
+    file_names = os.listdir(folder_name)
+    for file in file_names:
+        with open(folder_name + "/" + file, "r", encoding='utf-8', errors='ignore') as f:
+            # TODO: should this be converted to all lowercase?
+            lines = "\n".join(f.readlines())
+            features = extract_features_ascii_unigram(lines)
+            normalized_features = normalize(features)
+            author = parse_author_s_writers(file)
+            if author in data:
+                data[author].append(normalized_features)
+            else:
+                data[author] = [normalized_features]
+    return data
+
+
+def load_data_as_x_and_y(folder_name):
+    """reads in a folder of text, and scores it using character unigram
+    
+    Args:
+        folder_name (str): where the files live
+    
+    Returns:
+        dict: maps author names to a list of sample feature vectors
+    """
+
+    x = []
+    y = []
+    file_names = os.listdir(folder_name)
+    for file in file_names:
+        with open(folder_name + "/" + file, "r", encoding='utf-8', errors='ignore') as f:
+            # TODO: should this be converted to all lowercase?
+            lines = "\n".join(f.readlines())
+            features = extract_features_ascii_unigram(lines)
+            normalized_features = normalize(features)
+            author = parse_author_s_writers(file)
+            x.append(normalized_features)
+            y.append(author)
+    return x, y

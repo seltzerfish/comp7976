@@ -1,20 +1,14 @@
 from os import listdir
-from helpers import extract_features_ascii_unigram, create_folder, normalize
+from pprint import pprint
+from helpers import *
+from classifiers import k_nearest
 
 INPUT_FOLDER = "sports_writers"
-OUT_FOLDER = "sports_writers_features"
 
-files = listdir(INPUT_FOLDER)
-create_folder(OUT_FOLDER + "-raw")
-create_folder(OUT_FOLDER + "-normalized")
+x, y = load_data_as_x_and_y(INPUT_FOLDER)
 
-for file in files:
-    with open(INPUT_FOLDER + "/" + file, "r", encoding='utf-8', errors='ignore') as f:
-        # TODO: should this be converted to all lowercase?
-        lines = "\n".join(f.readlines())
-        features = extract_features_ascii_unigram(lines)
-        normalized_features = normalize(features)
-        with open(OUT_FOLDER + "-raw/rawcu-" + file, "w") as w:
-            w.write(str(features))
-        with open(OUT_FOLDER + "-normalized/ncu-" + file, "w") as w:
-            w.write(str(normalized_features))
+for index in range(len(x)):
+    print("actual: " + y[index])
+    print("predicted: " + str(k_nearest([x[index]], x, y)))
+
+    
