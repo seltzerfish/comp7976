@@ -10,5 +10,3 @@ x, y = load_data_as_x_and_y(INPUT_FOLDER)
 for index in range(len(x)):
     print("actual: " + y[index])
     print("predicted: " + str(k_nearest([x[index]], x, y)))
-
-    

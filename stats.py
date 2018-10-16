@@ -8,7 +8,7 @@ files = listdir(INPUT_FOLDER)
 stats_dict = dict()  # initialize dictionary
 
 for file in files:
-    with open(INPUT_FOLDER + "/" + file, "r", encoding='utf-8', errors='ignore') as f:
+    with open(INPUT_FOLDER + "/" + file, "r", encoding="utf-8", errors="ignore") as f:
         lines = "\n".join(f.readlines())
         author = parse_author_s_writers(file)
         chars = len(lines)
@@ -21,10 +21,16 @@ for file in files:
 
 for author in stats_dict:
     print("Author: " + author)
-    print("\tAverage # characters: " +
-          str(sum([x[0] for x in stats_dict[author]]) / len(stats_dict[author])))
-    print("\tAverage # words: " +
-          str(sum([x[1] for x in stats_dict[author]]) / len(stats_dict[author])))
-    print("\tAverage # sentences: " +
-          str(sum([x[2] for x in stats_dict[author]]) / len(stats_dict[author])))
+    print(
+        "\tAverage # characters: "
+        + str(sum([x[0] for x in stats_dict[author]]) / len(stats_dict[author]))
+    )
+    print(
+        "\tAverage # words: "
+        + str(sum([x[1] for x in stats_dict[author]]) / len(stats_dict[author]))
+    )
+    print(
+        "\tAverage # sentences: "
+        + str(sum([x[2] for x in stats_dict[author]]) / len(stats_dict[author]))
+    )
     print()

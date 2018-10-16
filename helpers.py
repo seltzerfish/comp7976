@@ -3,29 +3,28 @@ from string import printable
 from math import sqrt
 
 
-
 def magnitude(vector):
-    '''Computes magnitude of vector
+    """Computes magnitude of vector
 
     Args:
         vector (iterable): an iterable object of numeric contents
 
     Returns:
         float: magnitude
-    '''
+    """
 
     return sqrt(sum([x ** 2 for x in vector]))
 
 
 def extract_features_ascii_unigram(input_string):
-    '''Extracts feature scores based on single letter occurences of ascii characters.
+    """Extracts feature scores based on single letter occurences of ascii characters.
 
     Args:
         input_string (string): the string to be scored
 
     Returns:
         list: a list of feature scores
-    '''
+    """
 
     # ascii_chars = list(printable)[:-5] #TODO: should whitespace and newlines be omitted?
     ascii_chars = list(printable)
@@ -38,14 +37,14 @@ def extract_features_ascii_unigram(input_string):
 
 
 def normalize(vector):
-    '''normalizes a vector
+    """normalizes a vector
 
     Args:
         vector (iterable): the vector to be normalized
 
     Returns:
         list: normalized vector
-    '''
+    """
 
     mag = magnitude(vector)
     return [x / mag for x in vector]
@@ -56,7 +55,7 @@ def create_folder(directory):
         if not os.path.exists(directory):
             os.makedirs(directory)
     except OSError:
-        print('Error: Creating directory. ' + directory)
+        print("Error: Creating directory. " + directory)
 
 
 def parse_author_s_writers(filename):
@@ -78,7 +77,9 @@ def load_data_as_normalized_dict(folder_name):
     data = dict()
     file_names = os.listdir(folder_name)
     for file in file_names:
-        with open(folder_name + "/" + file, "r", encoding='utf-8', errors='ignore') as f:
+        with open(
+            folder_name + "/" + file, "r", encoding="utf-8", errors="ignore"
+        ) as f:
             # TODO: should this be converted to all lowercase?
             lines = "\n".join(f.readlines())
             features = extract_features_ascii_unigram(lines)
@@ -105,7 +106,9 @@ def load_data_as_x_and_y(folder_name):
     y = []
     file_names = os.listdir(folder_name)
     for file in file_names:
-        with open(folder_name + "/" + file, "r", encoding='utf-8', errors='ignore') as f:
+        with open(
+            folder_name + "/" + file, "r", encoding="utf-8", errors="ignore"
+        ) as f:
             # TODO: should this be converted to all lowercase?
             lines = "\n".join(f.readlines())
             features = extract_features_ascii_unigram(lines)
