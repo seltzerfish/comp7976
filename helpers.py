@@ -112,7 +112,7 @@ def load_data_as_x_and_y(folder_name, feature_func=extract_features_ascii_unigra
         ) as f:
             # TODO: should this be converted to all lowercase?
             lines = "\n".join(f.readlines())
-            features = feature_extraction_func(lines)
+            features = feature_func(lines)
             normalized_features = normalize(features)
             author = parse_author_s_writers(file)
             x.append(normalized_features)
@@ -136,11 +136,11 @@ def score_function_accuracy(function, x, y, k):
     for index in range(len(x)):
         sample = x[index]
         true_label = y[index]
-        del x[index]
+        del x[index]  # take the sample out of the population
         del y[index]
         predicted = function([sample], x, y, k)[0]
         if true_label == predicted:
             correct += 1
-        x.insert(index, sample)
+        x.insert(index, sample)  # put it back for the next sample
         y.insert(index, true_label)
     return correct / (len(x))
