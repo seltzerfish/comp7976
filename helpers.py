@@ -93,13 +93,14 @@ def load_data_as_normalized_dict(folder_name):
 
 
 def load_data_as_x_and_y(folder_name, feature_func=extract_features_ascii_unigram):
-    """reads in a folder of text, and scores it using character unigram
+    """extracts the feature vectors for all files in a folder
     
     Args:
         folder_name (str): where the files live
+        feature_func (function, optional): Defaults to extract_features_ascii_unigram. The function to be used to convert a string to a feature vector
     
     Returns:
-        dict: maps author names to a list of sample feature vectors
+        list, list: two lists representing each feature vector, and each label associated
     """
 
     x = []
