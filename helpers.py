@@ -117,3 +117,29 @@ def load_data_as_x_and_y(folder_name):
             x.append(normalized_features)
             y.append(author)
     return x, y
+
+
+def load_given_features(file_name):
+    x = []
+    y = []
+    with open(file_name, "r") as f:
+        for line in f:
+            l = list(eval(line))
+            y.append(l[0])
+            x.append(l[1:])
+    return x, y
+
+
+def score_function_accuracy(function, x, y, k):
+    correct = 0.0
+    for index in range(len(x)):
+        sample = x[index]
+        true_label = y[index]
+        del x[index]
+        del y[index]
+        predicted = function([sample], x, y, k)[0]
+        if true_label == predicted:
+            correct += 1
+        x.insert(index, sample)
+        y.insert(index, true_label)
+    return correct / (len(x))
