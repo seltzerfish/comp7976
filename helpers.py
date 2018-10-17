@@ -92,7 +92,7 @@ def load_data_as_normalized_dict(folder_name):
     return data
 
 
-def load_data_as_x_and_y(folder_name):
+def load_data_as_x_and_y(folder_name, feature_func=extract_features_ascii_unigram):
     """reads in a folder of text, and scores it using character unigram
     
     Args:
@@ -111,7 +111,7 @@ def load_data_as_x_and_y(folder_name):
         ) as f:
             # TODO: should this be converted to all lowercase?
             lines = "\n".join(f.readlines())
-            features = extract_features_ascii_unigram(lines)
+            features = feature_extraction_func(lines)
             normalized_features = normalize(features)
             author = parse_author_s_writers(file)
             x.append(normalized_features)
