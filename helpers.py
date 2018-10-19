@@ -64,6 +64,11 @@ def parse_author_s_writers(filename):
     return filename[:second_underscore_index]
 
 
+def parse_casis_author(filename):
+    first_occurence = filename.index("_")
+    return filename[:first_occurence]
+
+
 def load_data_as_normalized_dict(folder_name):
     """reads in a folder of text, and scores it using character unigram
     
@@ -92,7 +97,11 @@ def load_data_as_normalized_dict(folder_name):
     return data
 
 
-def load_data_as_x_and_y(folder_name, feature_func=extract_features_ascii_unigram):
+def load_data_as_x_and_y(
+    folder_name,
+    feature_func=extract_features_ascii_unigram,
+    author_parser=parse_author_s_writers,
+):
     """extracts the feature vectors for all files in a folder
     
     Args:
@@ -114,7 +123,7 @@ def load_data_as_x_and_y(folder_name, feature_func=extract_features_ascii_unigra
             lines = "\n".join(f.readlines())
             features = feature_func(lines)
             normalized_features = normalize(features)
-            author = parse_author_s_writers(file)
+            author = author_parser(file)
             x.append(normalized_features)
             y.append(author)
     return x, y

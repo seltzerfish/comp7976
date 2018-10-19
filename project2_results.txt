@@ -1,0 +1,52 @@
+
+Sports writers
+Number of classes: 6
+	"k_nearest" with k = 1: 15.15% accuracy.
+	"k_nearest" with k = 3: 15.15% accuracy.
+	"k_nearest" with k = 5: 21.21% accuracy.
+	"k_nearest_weighted" with k = 1: 15.15% accuracy.
+	"k_nearest_weighted" with k = 3: 15.15% accuracy.
+	"k_nearest_weighted" with k = 5: 15.15% accuracy.
+	"k_nearest_weighted" with k = 32: 6.06% accuracy.
+	"grnn" with k = 1: 72.73% accuracy.
+	"grnn" with k = 3: 72.73% accuracy.
+	"grnn" with k = 5: 78.79% accuracy.
+	"grnn" with k = 32: 66.67% accuracy.
+	"knn_improved" with k = 1: 72.73% accuracy.
+	"knn_improved" with k = 3: 60.61% accuracy.
+	"knn_improved" with k = 5: 75.76% accuracy.
+	"knn_weighted_improved" with k = 1: 72.73% accuracy.
+	"knn_weighted_improved" with k = 3: 69.70% accuracy.
+	"knn_weighted_improved" with k = 5: 78.79% accuracy.
+	"knn_weighted_improved" with k = 32: 42.42% accuracy.
+	"grnn_improved" with k = 1: 84.85% accuracy.
+	"grnn_improved" with k = 3: 78.79% accuracy.
+	"grnn_improved" with k = 5: 75.76% accuracy.
+	"grnn_improved" with k = 33: 81.82% accuracy.
+
+
+CASIS 25
+Number of classes: 25
+	"k_nearest" with k = 1: 4.00% accuracy.
+	"k_nearest" with k = 3: 4.00% accuracy.
+	"k_nearest" with k = 5: 4.00% accuracy.
+	"k_nearest_weighted" with k = 1: 4.00% accuracy.
+	"k_nearest_weighted" with k = 3: 4.00% accuracy.
+	"k_nearest_weighted" with k = 5: 4.00% accuracy.
+	"k_nearest_weighted" with k = 99: 1.00% accuracy.
+	"grnn" with k = 1: 34.00% accuracy.
+	"grnn" with k = 3: 34.00% accuracy.
+	"grnn" with k = 5: 38.00% accuracy.
+	"grnn" with k = 99: 31.00% accuracy.
+	"knn_improved" with k = 1: 34.00% accuracy.
+	"knn_improved" with k = 3: 29.00% accuracy.
+	"knn_improved" with k = 5: 33.00% accuracy.
+	"knn_weighted_improved" with k = 1: 34.00% accuracy.
+	"knn_weighted_improved" with k = 3: 33.00% accuracy.
+	"knn_weighted_improved" with k = 5: 40.00% accuracy.
+	"knn_weighted_improved" with k = 99: 3.00% accuracy.
+	"grnn_improved" with k = 1: 35.00% accuracy.
+	"grnn_improved" with k = 3: 35.00% accuracy.
+	"grnn_improved" with k = 5: 35.00% accuracy.
+	"grnn_improved" with k = 100: 34.00% accuracy.
+

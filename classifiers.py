@@ -1,20 +1,23 @@
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
+from pprint import pprint
+import operator
+from random import choice
 from copy import deepcopy
 from math import exp
 from scipy.spatial.distance import euclidean
 
 
-DEFAULT_SIGMA = 0.11
+DEFAULT_SIGMA = 0.10
 
 
-def k_nearest(target, x, y, k=3):
+def knn_improved(target, x, y, k=3):
     classifier = KNeighborsClassifier(n_neighbors=k)
     classifier.fit(x, y)
     return classifier.predict(target)
 
 
-def k_nearest_weighted(target, x, y, k=3):
+def knn_weighted_improved(target, x, y, k=3):
     classifier = KNeighborsClassifier(n_neighbors=k, weights="distance")
     classifier.fit(x, y)
     return classifier.predict(target)
@@ -36,7 +39,40 @@ def grnn(target, x, y, k=3, sigma=DEFAULT_SIGMA):
     return [classes[prediction_vector.index(max(prediction_vector))]]
 
 
-## helper methods
+def k_nearest(target, x, y, k=3):
+    pop = limit_population(x, k, target)
+    pop_labels = [y[x.index(e)] for e in pop]
+    used = set()
+    winner = "None"
+    high = 0
+    for l in pop_labels:
+        if l not in used:
+            used.add(l)
+            c = pop_labels.count(l)
+            if c > high:
+                high = c
+                winner = l
+    return [winner]
+
+
+def k_nearest_weighted(target, x, y, k=3):
+    pop = limit_population(x, k, target)
+    pop_labels = [y[x.index(e)] for e in pop]
+    results = dict()
+    for key in pop_labels:
+        if key not in results:
+            results[key] = 0.0
+    for p in pop:
+        results[pop_labels[pop.index(p)]] += 1 / pow(euclidean(p, target), 3)
+    ret = [max(results.items(), key=operator.itemgetter(1))[0]]
+    return ret
+
+
+def grnn_improved(target, x, y, k=3, sigma=DEFAULT_SIGMA):
+    return [choice(y)]
+
+
+## GRNN helper methods
 
 
 def limit_population(x, k, target):
