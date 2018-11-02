@@ -6,7 +6,7 @@ from sd_helpers import extract_features
 from classifiers import *
 
 INPUT_FOLDER = "sports_writers"
-FUNCTIONS = (k_nearest, k_nearest_weighted, grnn, knn_improved, knn_weighted_improved)
+FUNCTIONS = (k_nearest, k_nearest_weighted, grnn, knn_improved, knn_weighted_improved, radial_basis)
 
 
 # Our collected sports writers:

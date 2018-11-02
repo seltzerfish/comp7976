@@ -140,7 +140,7 @@ def load_given_features(file_name):
     return x, y
 
 
-def score_function_accuracy(function, x, y, k):
+def score_function_accuracy(function, x, y, k=5):
     correct = 0.0
     for index in range(len(x)):
         sample = x[index]
@@ -148,6 +148,8 @@ def score_function_accuracy(function, x, y, k):
         del x[index]  # take the sample out of the population
         del y[index]
         predicted = function([sample], x, y, k)[0]
+        # if function.__name__ == "radial_basis":
+        #     print(predicted, true_label)
         if true_label == predicted:
             correct += 1
         x.insert(index, sample)  # put it back for the next sample

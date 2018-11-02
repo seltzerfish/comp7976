@@ -6,10 +6,15 @@ from random import choice
 from copy import deepcopy
 from math import exp
 from scipy.spatial.distance import euclidean
-
+from sklearn import svm
 
 DEFAULT_SIGMA = 0.10
-
+def radial_basis(target, x, y, k=3):
+    rbfsvm = svm.LinearSVC()
+    rbfsvm.fit(x, y)
+    p = rbfsvm.predict(target)
+    # print(p)
+    return p
 
 def knn_improved(target, x, y, k=3):
     classifier = KNeighborsClassifier(n_neighbors=k)

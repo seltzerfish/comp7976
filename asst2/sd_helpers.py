@@ -3,8 +3,6 @@ import os
 import csv
 import numpy as np
 import nltk
-import plotly
-from plotly.graph_objs import Bar, Layout, Scatterpolar, Figure
 from nltk.tokenize import TweetTokenizer, sent_tokenize
 from sklearn.linear_model import LinearRegression
 from nltk.stem import PorterStemmer
