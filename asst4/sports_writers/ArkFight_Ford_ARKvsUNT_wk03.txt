@@ -1,0 +1,69 @@
+The autopsy results are in: it’s bad. How bad? As soon as I uploaded the data onto my computer last night, the entire thing crashed. The program saw the numbers and said “nope there’s no way this is right.” I’ve spent a chunk of my Sunday afternoon repairing damaged Excel files.
+
+Calling this the “Worst Loss in Modern Arkansas History” is a bold claim: is it really up there with The Citadel, UL-Monroe, and Toledo? At least those were close losses. This was a beatdown.
+
+It’s also inexcusable. No “trust the process, we’re rebuilding” excuse can justify a 27-point thrashing by a Conference-USA school, even a solid North Texas team likely to have one of its better seasons in school history. Arkansas wasn’t just out-talented, it was out-schemed and out-coached. It’s the type of loss that requires more than the standard, “we’re gonna get back to the basics” coachspeak that Coach Chad Morris offered after the game.
+
+Here’s a quick look at the game stats, and then a look at where the Arkansas offense goes from here.
+
+Biggest plays
+Scores are relative to Arkansas, so + plays benefit Arkansas while - plays hurt Arkansas.
+
+-5.2, 1st Quarter, Keegan Brewer 90-yard punt return (14-0)
+-3.5, 3rd Quarter, Cole Kelley pass intercepted by Taylor Robinson (flea flicker)
+-2.8, 2nd Quarter, Mason Fine 7-yard touchdown pass to Rico Bussey Jr. (31-10)
+ 
+The numbers are for the first three quarters. Yep, Arkansas lost so badly to North Texas that we had to engage garbage time mode.
+
+Here are some conclusions from these data:
+
+1. I’m not really blaming the coaches for the punt return. Some are, and that’s fine. I listed it as “Shenanigans EV” instead of a punt return. My unpopular opinion is that the “fake fair catch” is a classless move because it abuses a rule designed to protect players. If an Arkansas gunner was onto the gimmick, he could have ensured that the North Texas return man spent his Sunday praying for feeling to return to his extremities. I imagine that will be what ultimately happens to cause the NCAA to change its rule to match the NFL rule: if a player fails to immediately advance the ball, he is said to have “given himself up” and the play is blown dead.
+
+2. The defense is definitely not the problem. The defense isn’t very good, but it’s probably a little bit better than the historically-bad 2016 and 2017 units. Here are the numbers:
+
+ 
+You can’t really ask for much more than negative Offense EV and a negative Adjusted Third Down Conversion Rate in all three games, especially considering that Arkansas has now faced two of the best offenses in the Group of 5. A negative Offense EV means that Arkansas is consistently holding opposing offenses to fewer points than you would expect based on field position. Arkansas is getting thrashed in field position due to rampant turnovers and an abysmal punting unit, and that’s largely why the actual score counts (20, 34, 44) are so bad.
+
+The D is more active up front and much better on third down, and it’s doing all this without one of its top players (Dre Greenlaw). I’m especially impressed with defensive linemen like Sosa Agim, Briston Guidry, Armon Watts, and T.J. Smith. The secondary still needs some work, but John Chavis has some highly-touted recruits lined up for next year. It’s easy to be optimistic for this defense. Chavis has done his job.
+
+3. The punting has been abysmal. The Hogs are getting walloped in field position this year, and bad punting is a key driver in that. North Texas started five drives in Arkansas territory, and three of those were due to short punts.
+
+4. Chad Morris is in over his head. He and his staff may be able to climb out of it, but this just an awful start to his tenure. The Hogs ultimately went +2.4 in Penalty EV between the two teams, but that was due to North Texas’ (smart) habit of interfering with Arkansas’ fastest receivers to keep from getting beat deep. But many of the penalties and miscues by the Hogs won’t necessarily be fixed with “better players” who “fit this system.” For example:
+
+Two illegal formation penalties
+Timeout due to 12 men on the field on a kickoff
+Ill-conceived flea flicker led to an interception
+Three different punters played
+Three different kickoff returners played
+Poor end-of-half clock management gave opponent consecutive drives on either side of the half (for the second straight week)
+Arkansas’ offense also looks poorly designed. The passing game is dependent on deep passes. There’s no development of an intermediate passing game, no crossing routes, and very little innovation with fast players like T.J. Hammonds and Jordan Jones. Deep outs to La’Michael Pettway and Michael Woods seem to be the only thing that works. The run game is highly simplistic, with an inside zone and a counter as the only plays Arkansas seems to consistently run.
+
+Morris will definitely need time to prepare a quarterback that can run his full offense (it’s obvious that this an abbreviated playbook), and that may take another year or more.
+
+The struggles in the run game are largely due to the sad state of the offensive line, which really isn’t Morris’ fault. The problem is that he was hired to be an offensive guru, capable of overcoming the talent deficiencies that Arkansas will inevitably face in the SEC, and so far, I’m not seeing any reason to believe he can scheme his way out of this. If he’s dependent on having more talent than his opponent, then 6-6 or 7-5 is best Arkansas can hope to do.
+
+Where do we go from here?
+As I wrote above, I think the defense will be fine. It’s done enough to win for three games. It’s more aggressive and active up front and has some highly-ranked recruits coming in next year.
+
+Offense is going to be the issue. Can Morris get it going?
+
+ 
+Devwah Whaley continues to be the most efficient option at running back. He’s got a 68% success rate despite getting the lion’s share of the carries through two bad rushing performances. There’s very little explosiveness, but he finds all the holes that are there. Meanwhile, Maleek Williams’ 68-yard touchdown run with a minute left isn’t reflected in these stats, and they would obviously make his numbers even better.
+
+I think Arkansas has four solid running backs — none of them seniors — and if these line problems get fixed later this season or next year, these guys could really show out.
+
+ 
+I liken keeping Cole Kelley in at quarterback into the third quarter to Houston Nutt starting Robert Johnson at quarterback against USC in the 2006 opener: it’s a full and fair chance, but it was his last chance. RoJo couldn’t get it done in that game, and Nutt moved on and switched him to receiver, where he thrived. I always thought that was a great coaching move by Nutt, as it added clarity to a convoluted QB situation.
+
+In this case, I’m not sure what the argument is for Kelley. He clearly can’t make decisions at the speed necessary to run this offense. Against three putrid defenses, he has a 39.7% success rate and four turnovers with just 6.2 yards per play. His ability to run the ball in short yardage means he should continue to work at quarterback and probably take a few snaps per game, but it really looks like Morris needs to move on.
+
+So what about Ty Storey? His numbers look good thanks to three or four big plays against Eastern Illinois, but he looked really bad against Colorado State and hasn’t shown the consistent accuracy needed to run this offense. Another issue is his age: he’s a redshirt junior. If this is indeed a multi-year rebuild for Chad Morris, is it wise to build the offense around a guy who won’t be here after next year?
+
+I recommend ignoring Connor Noland’s numbers, as his offensive line decided to simply quit blocking when he entered the game. None of the sacks were his fault. If the coaches think Noland is capable of being an SEC-level quarterback in the future, they should consider starting him immediately. If they think Noland is not likely to beat out 2019 commit K.J. Jefferson — a Morris recruit — then they should probably start Storey and just suffer through this year.
+
+ 
+As I wrote in the preview, receivers are a strength of this team, but they are not being put in the best position to succeed. Arkansas’ routes look simple: mostly streaks and outs with a few hitches. I expected more crossing routes with runs after the catch, like Bobby Petrino’s offense.
+
+Morris and the offensive staff also have an odd habit of heavily substituting at receiver. Pettway, who is probably Arkansas’ most talented receiver at this point, only plays about half of snaps. The Hogs go through about eight or nine receivers per game. To make matters worse, Pettway and Woods appear to play the same position, so Arkansas’ two best possession receivers are never on the field at the same time. When you don’t have much talent, keeping what you do have on the bench makes things that much harder.
+
+Speaking of Woods, he and Bumper Pool have looked solid so far. True freshmen playing well under a new coach is always a positive sign. Fans will keep looking for positive signs as the season progresses, but things will probably get worse before they get better.
